@@ -8,4 +8,4 @@
 # Install dependencies from requirements.txt
 /usr/bin/python3.9 -m pip install -r requirements.txt
 # Add other necessary build steps below
-python3.9 manage.py collectstatic --noinput
+#python3.9 manage.py collectstatic --noinput
