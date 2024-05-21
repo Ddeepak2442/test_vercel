@@ -3,8 +3,8 @@
   "builds": [
     {
       "src": "test_vercel/wsgi.py",
-      "use": "@vercel/python",
-      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+      "use": "@vercel/python@latest",
+      "config": { "maxLambdaSize": "15mb" }
     },
     {
       "src": "build_files.sh",
